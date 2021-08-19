@@ -1,0 +1,76 @@
+$main-color:#C23F81;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  .login a {
+    padding:8px 20px;
+    text-transform:uppercase;
+    background-color:$main-color;
+    border:none;
+  }
+}
+.search label {
+  font-weight:300;
+}
+.search input {
+  background-color:#ECECEC;
+  border-radius: 10px;
+  border:none;
+}
+
+header {
+  background: url("../images/header@2x.png") no-repeat center center;
+  background-size:cover;
+  height:209px;
+
+  h2 {
+    margin-top:105px;
+    font-size:60px;
+    color:#fff;    
+  }
+}
+.card {
+  border-radius:0.65rem;
+}
+section.cards {
+  margin-top:48px;  
+}
+.card-people {
+  margin-right:10px;
+}  
+.load-more {
+  color:$main-color;
+}
+
+/* Footer
+-------------------- */
+.line {
+  width: 100%;
+  height: 6px;
+  background-color:$main-color;
+}
+.footer {
+  width: 100%;
+  height:55px;
+  color:#fff;
+  background-color:#313131;
+}
+
+@media screen and (max-width:992px) {
+  .card {
+    margin-top:15px;
+  }
+}
+@media screen and (max-width:768px) {
+  .search label {
+    display:none;
+  }
+  .search input {
+    width:100%;
+    padding:10px;
+  }
+}
+
+
